@@ -39,9 +39,9 @@ _By looking at the logs, can you identify which tests failed?_ To find it, go to
 
 If the checks don't appear or if the checks are stuck in progress, there's a few things you can do to try and trigger them:
 
-- Refresh the page, it's possible the workflow ran and the page just hasn't been updated with that change.
-- Try making a commit on this branch. Our workflow is triggered with a `push` event, and committing to this branch will result in a new `push`.
-- Edit the workflow file on GitHub and ensure there are no red lines indicating a syntax problem.
+* Refresh the page, it's possible the workflow ran and the page just hasn't been updated with that change.
+* Try making a commit on this branch. Our workflow is triggered with a `push` event, and committing to this branch will result in a new `push`.
+* Edit the workflow file on GitHub and ensure there are no red lines indicating a syntax problem.
 
 ### :keyboard: Activity: Fix the test
 
